@@ -1,6 +1,6 @@
 import os
 largura_tela = os.get_terminal_size().columns
-rows = 30
+rows = 20
 for i in range(1,rows +1):
     linha = " " * (rows -1) + "*" * (2*i -1)
     espacos_extras = (largura_tela - len(linha))//2
